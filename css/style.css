@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'RobotoSlab Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: local('RobotoSlab Bold'), local('RobotoSlab-Bold'),
+       url('/fonts/RobotoSlab-Bold.woff2') format('woff2'),
+       url('/fonts/RobotoSlab-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'RobotoSlab Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('RobotoSlab Regular'), local('RobotoSlab-Regular'),
+        url('/fonts/RobotoSlab-Regular.woff2') format('woff2'),
+        url('/fonts/RobotoSlab-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bazar Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bazar Regular'), local('Bazar-Regular'),
+        url('/fonts/Bazar.woff2') format('woff2'),
+        url('/fonts/Bazar.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'),
+        url('/fonts/Oswald-Regular.woff2') format('woff2'),
+        url('/fonts/Oswald-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Bold'), local('Oswald-Bold'),
+        url('/fonts/Oswald-Bold.woff2') format('woff2'),
+        url('/fonts/Oswald-Bold.woff') format('woff');
+}
+
