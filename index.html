@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Developer portfolio</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -53,8 +55,10 @@
         <p>I am a graphic designer from Baltimore</p>
         <ul class="about-me-features">
           <li class="about-me-features-item">
-            <img src="img/movies-theme.svg" width="170" height="133" />
-            <h3 class="about-me-features-name">Movies</h3>
+            <a href="#">
+                <img src="img/movies-theme.svg" width="170" height="133" alt="Movies"/>
+                <h3 class="about-me-features-name">Movies</h3>
+            </a>
             <p>what I watch</p>
             <p class="about-me-features-details">
               Clutter is honest! I do believe that has to the users
@@ -65,8 +69,10 @@
             </p>
           </li>
           <li class="about-me-features-item">
-            <img src="img/music-theme.svg" width="170" height="170" />
-            <h3 class="about-me-features-name">Music</h3>
+            <a href="#">
+                <img src="img/music-theme.svg" width="170" height="170" alt="Music">
+                <h3 class="about-me-features-name">Music</h3>
+            </a>
             <p>what I listen</p>
             <p class="about-me-features-details">
               Good design. The content, you'll love powerpoint should be
@@ -77,8 +83,10 @@
             </p>
           </li>
           <li class="about-me-features-item">
-            <img src="img/clothes-theme.svg" width="170" height="149" />
-            <h3 class="about-me-features-name">Clothes</h3>
+            <a href="#">
+                <img src="img/clothes-theme.svg" width="170" height="149" alt="Clothes">
+                <h3 class="about-me-features-name">Clothes</h3>
+            </a>
             <p>what I wear</p>
             <p class="about-me-features-details">
               Very honest approach and product. The other product that changes
@@ -89,8 +97,10 @@
             </p>
           </li>
           <li class="about-me-features-item">
-            <img src="img/food-theme.svg" width="170" height="170" />
-            <h3 class="about-me-features-name">Food</h3>
+            <a href="#">
+                <img src="img/food-theme.svg" width="170" height="170" alt="Food">
+                <h3 class="about-me-features-name">Food</h3>
+            </a>
             <p>what I eat</p>
             <p class="about-me-features-details">
               Simplicity. Its context. From so many different levels. There's
@@ -106,78 +116,54 @@
         <h2>Simplicity is the ultimate sophistication</h2>
         <section class="filter">
           <h2 class="visually-hidden">Gallery filter</h2>
-          <div class="filter-wrapper">
-            <label class="filter-header">Filter by</label>
-            <span>design</span>
-            <span>logo</span>
-            <span>photography</span>
-            <span>poster</span>
-            <span>resources</span>
-            <span>retro</span>
-            <span>t-shirts</span>
-            <span>video</span>
-          </div>
+          <form method="get" action="#">
+              <div class="filter-wrapper">
+                  <legend class="filter-header">Filter by</legend>
+                  <ul>
+                    <li class="filter-option"><input id="filter-design" class="visually-hidden" type="radio" name="filter"><label for="filter-design">design</label></li>
+                    <li class="filter-option"><input id="filter-logo" class="visually-hidden" type="radio" name="filter"><label for="filter-logo">logo</label></li>
+                    <li class="filter-option"><input id="filter-photo" class="visually-hidden" type="radio" name="filter"><label for="filter-photo">photography</label></li>
+                    <li class="filter-option"><input id="filter-poster" class="visually-hidden" type="radio" name="filter"><label for="filter-poster">poster</label></li>
+                    <li class="filter-option"><input id="filter-resourse" class="visually-hidden" type="radio" name="filter"><label for="filter-resourse">resources</label></li>
+                    <li class="filter-option"><input id="filter-retro" class="visually-hidden" type="radio" name="filter"><label for="filter-retro">retro</label></li>
+                    <li class="filter-option"><input id="filter-tshirt" class="visually-hidden" type="radio" name="filter"><label for="filter-tshirt">t-shirts</label></li>
+                    <li class="filter-option"><input id="filter-video" class="visually-hidden" type="radio" name="filter"><label for="filter-video">video</label></li>
+                  </ul>
+                </div>
+          </form>
         </section>
         <ul class="gallery">
           <li class="gallery-item">
-            <figure class="gallery-item-pic">
-              <a href="#">
-                <img src="img/gallery-item-pic.svg" alt="gallery pictures" />
-              </a>
-            </figure>
-            <span>Galleries are funny</span>
+            <img src="img/gallery-item-pic.svg" width="48" height="46" alt="gallery pictures">
+            <a href="#">Galleries are funny</a>
           </li>
           <li class="gallery-item">
-            <figure class="gallery-item-pic">
-              <a href="#"><img src="img/gallery-item-tv.svg" alt="vimeo"/></a>
-            </figure>
-            <span>A vimeo reel</span>
+            <img src="img/gallery-item-tv.svg" width="49" height="38" alt="vimeo">
+            <a href="#">A vimeo reel</a>
           </li>
           <li class="gallery-item">
-            <figure class="gallery-item-pic">
-              <a href="#"
-                ><img src="img/gallery-item-camera.svg" alt="cameras"
-              /></a>
-            </figure>
-            <span>Love for old cameras</span>
+              <img src="img/gallery-item-camera.svg" width="48" height="48" alt="cameras">
+            <a href="#">Love for old cameras</a>
           </li>
           <li class="gallery-item">
-            <figure class="gallery-item-pic">
-              <a href="#"
-                ><img src="img/gallery-item-page.svg" alt="project page"
-              /></a>
-            </figure>
-            <span>Detailed project page</span>
+              <img src="img/gallery-item-page.svg" width="48" height="46" alt="project page">
+            <a href="#">Detailed project page</a>
           </li>
           <li class="gallery-item">
-            <figure class="gallery-item-pic">
-              <a href="#"><img src="img/gallery-item-tv.svg" alt="youtube"/></a>
-            </figure>
-            <span>Youtube video</span>
+            <img src="img/gallery-item-tv.svg" width="49" height="38" alt="youtube">
+            <a href="#">Youtube video</a>
           </li>
           <li class="gallery-item">
-            <figure class="gallery-item-pic">
-              <a href="#"
-                ><img src="img/gallery-item-link.svg" alt="external links"
-              /></a>
-            </figure>
-            <span>Another external link</span>
+            <img src="img/gallery-item-link.svg" width="48" height="44" alt="external links">
+            <a href="#">Another external link</a>
+            </li>
+          <li class="gallery-item">
+            <img src="img/gallery-item-pic.svg" width="48" height="46" alt="lightbox images">
+            <a href="#">A lightbox image</a>
           </li>
           <li class="gallery-item">
-            <figure class="gallery-item-pic">
-              <a href="#"
-                ><img src="img/gallery-item-pic.svg" alt="lightbox images"
-              /></a>
-            </figure>
-            <span>A lightbox image</span>
-          </li>
-          <li class="gallery-item">
-            <figure class="gallery-item-pic">
-              <a href="#"
-                ><img src="img/gallery-item-camera.svg" alt="sounds"
-              /></a>
-            </figure>
-            <span>The dark tempest</span>
+            <img src="img/gallery-item-camera.svg" width="48" height="48" alt="sounds">
+            <a href="#">The dark tempest</a>
           </li>
           <a href="#" class="show-all">Browse all</a>
         </ul>
@@ -187,11 +173,11 @@
         <p class="blog-description">News form my house</p>
         <div class="blog-post">
           <img src="http://placekitten.com/570/428" alt="Blog picture 1" />
-          <h3 class="blog-post-title">The Magic Wheel</h3>
+          <h3 class="blog-post-title"><a href="#">The Magic Wheel</a></h3>
           <time datetime="2014-07-28">July 18, 2014</time>
-          <span class="blog-post-author">Admin</span>
+          <a class="blog-post-author">Admin</a>
           <span class="blog-post-heading">fun, travel, trends</span>
-          <span class="blog-post-responses">1 response</span>
+          <a class="blog-post-responses">1 response</a>
           <p class="blog-post-content">
             It’s not it to understand them in the objects we’re playing.
             Products fulfilling a product more innovative, bullet grunts,
@@ -203,11 +189,11 @@
         </div>
         <div class="blog-post">
           <img src="http://placekitten.com/570/428" alt="Blog picture 2" />
-          <h3 class="blog-post-title">The lonely road</h3>
+          <h3 class="blog-post-title"><a href="">The lonely road</a></h3>
           <time datetime="2014-07-28">July 18, 2014</time>
-          <span class="blog-post-author">Admin</span>
+          <a class="blog-post-author">Admin</a>
           <span class="blog-post-heading">fun, travel, trends, web-design</span>
-          <span class="blog-post-responses">3 responses</span>
+          <a class="blog-post-responses">3 responses</a>
           <p class="blog-post-content">
             If you’ve studied design at all, you’ve probably encountered Lorem
             Ipsum place-holder text at some point. Anywhere there is text, but
@@ -218,11 +204,11 @@
         </div>
         <div class="blog-post">
           <img src="http://placekitten.com/570/428" alt="Blog picture 3" />
-          <h3 class="blog-post-title">I love gasoline smell</h3>
+          <h3 class="blog-post-title"><a href="#">I love gasoline smell</a></h3>
           <time datetime="2014-07-28">July 18, 2014</time>
-          <span class="blog-post-author">Admin</span>
+          <a class="blog-post-author">Admin</a>
           <span class="blog-post-heading">fun, trends, web-design</span>
-          <span class="blog-post-responses">No responses</span>
+          <a class="blog-post-responses">No responses</a>
           <p class="blog-post-content">
             IMany of the content, and often about their precious turfpossess
             selves and pronciples are shortcomings of seeing and colors to cover
@@ -236,8 +222,24 @@
       <section class="contact">
         <h2 class="contact-title">Contact me</h2>
         <b>I'll be glad to answer your questions</b>
-        <form>
-          <!--form goes here-->
+        <form name="form-contact" method="post" action="#">
+          <p class="form-field-wrapper">
+            <label class="visually-hidden" for="form-field-name">Name</label>
+            <input id="form-field-name-id" type="text" name="form-field-name" placeholder="Name" required>
+          </p>
+          <p class="form-field-wrapper">
+              <label class="visually-hidden" for="form-field-email">Email address</label>
+              <input id="form-field-email-id" type="email" name="form-field-email" placeholder="Email address" required>
+          </p>
+          <p class="form-field-wrapper">
+              <label class="visually-hidden" for="form-field-subject">Subject</label>
+              <input id="form-field-subject-id" type="text" name="form-field-subject" placeholder="Subject" required>
+          </p>
+          <p class="form-field-wrapper">
+              <label class="visually-hidden" for="form-field-message">Message</label>
+              <textarea id="form-field-message-id" name="form-field-message" placeholder="Your message" required></textarea>
+          </p>
+          <button type="submit" name="submit-message">Send message</button>
         </form>
       </section>
     </main>
