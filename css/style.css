@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('RobotoSlab Bold'), local('RobotoSlab-Bold'),
-       url('/fonts/RobotoSlab-Bold.woff2') format('woff2');
+       url('../fonts/RobotoSlab-Bold.woff2') format('woff2');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('RobotoSlab Regular'), local('RobotoSlab-Regular'),
-        url('/fonts/RobotoSlab-Regular.woff2') format('woff2');
+        url('../fonts/RobotoSlab-Regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Bazar Regular'), local('Bazar-Regular'),
-        url('/fonts/Bazar.woff2') format('woff2');
+        url('../fonts/Bazar.woff2') format('woff2');
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Oswald Regular'), local('Oswald-Regular'),
-        url('/fonts/Oswald-Regular.woff2') format('woff2');
+        url('../fonts/Oswald-Regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -35,7 +35,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Oswald Bold'), local('Oswald-Bold'),
-        url('/fonts/Oswald-Bold.woff2') format('woff2');
+        url('../fonts/Oswald-Bold.woff2') format('woff2');
 }
 
 .visually-hidden {
@@ -48,3 +48,282 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "RobotoSlab Regular", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #383a3c;
+  background-color: #f9ebd9;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.main-title {
+  font-family: "Bazar Regular", Arial, sans-serif;
+  font-size: 180px;
+  line-height: 22px;
+  text-align: center;
+  color: #393a3a;
+  text-transform: uppercase;
+}
+
+.main-navigation {
+  font-family: "Bazar Regular", Arial, sans-serif;
+  font-size: 54px;
+  line-height: 22px;
+  color: #f9ebd9;
+  background-color: #76b9b9;
+}
+
+.main-navigation ul {
+  list-style: none;
+}
+
+.main-navigation a {
+  color: #f9ebd9;
+  text-transform: uppercase;
+}
+
+.main-text {
+  font-family: "Bazar Regular", Arial, sans-serif;
+  font-size: 44px;
+  color: #4b4e4c;
+  text-transform: uppercase;
+}
+
+.slider {
+  line-height: 22px;
+  background-color: #76b9b9;
+  text-align: center;
+}
+
+.slider-caption {
+  font-family: "Bazar Regular", Arial, sans-serif;
+  font-size: 64px;
+  color: #f7ebd8;
+  text-transform: uppercase;
+}
+
+.slider-slogan {
+  font-size: 53px;
+}
+
+.about-me-text {
+  font-family: "Oswald Regular", Arial, sans-serif;
+  font-size: 32px;
+  line-height: 22px;
+  color: #38353e;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-me-features {
+  list-style: none;
+}
+
+.about-me-features a {
+  color: #383a3c;
+}
+
+.about-me-features a:hover,
+.about-me-features a:focus {
+  text-decoration: underline;
+}
+
+.about-me-features-name,
+.about-me-features-description {
+  text-transform: uppercase;
+  line-height: 22px;
+}
+
+.about-me-features-name {
+  font-family: "Bazar Regular", Arial, sans-serif;
+  font-size: 54px;
+}
+
+.about-me-features-description {
+  font-family: "RobotoSlab Bold", Arial, sans-serif;
+  font-size: 28px;
+}
+
+.portfolio {
+  background-color: #e48b6a;
+}
+
+.portfolio-caption,
+.portfolio-description {
+  line-height: 22px;
+  text-align: center;
+}
+
+.portfolio-description {
+  font-family: "Oswald Regular", Arial, sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.filter-wrapper {
+  line-height: 22px;
+}
+
+.filter-wrapper ul {
+  list-style: none;
+}
+
+.filter-header {
+  font-family: "RobotoSlab Regular", Arial, sans-serif;
+  font-size: 32px;
+}
+
+.filter-option label {
+  font-family: "RobotoSlab Bold", Arial, sans-serif;
+  font-size: 24px;
+}
+.gallery {
+  list-style: none;
+}
+
+.gallery-item a {
+  font-family: "RobotoSlab Bold", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 22px;
+  color: #383a3c;
+  text-transform: uppercase;
+}
+
+.show-all-link {
+  display: block;
+  font-family: "Oswald Bold", Arial, sans-serif;
+  font-size: 28px;
+  line-height: 22px;
+  color: #38353e;
+  text-align: center;
+  text-transform: uppercase;
+}
+.show-all-link:hover,
+.show-all-link:focus {
+  text-decoration: underline;
+}
+
+.blog {
+  background-color: #dbd8d6;
+}
+
+.blog-description {
+  font-family: "Oswald Regular", Arial, sans-serif;
+  font-size: 32px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blog-post-title {
+  font-family: "RobotoSlab Bold", Arial, sans-serif;
+  font-size: 48px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+.blog-post-title a {
+  color: #383a3c;
+}
+
+.blog-post-title a:hover,
+.blog-post-title a:focus {
+  text-decoration: underline;
+}
+
+.blog-post-details {
+  font-family: "Oswald Bold", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.blog-post-content,
+.more-link {
+  font-size: 32px;
+  line-height: 57px;
+}
+
+.blog-post-content {
+  font-family: "RobotoSlab Regular", Arial, sans-serif;
+}
+
+.more-link {
+  font-family: "RobotoSlab Bold", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #383a3c;
+}
+
+.more-link:hover,
+.more-link:focus {
+  text-decoration: underline;
+}
+
+.contact,
+.footer-main {
+  color: #f6edd8;
+  background-color: #4b4f56;
+}
+
+.contact-title {
+  color: #f6edd8;
+}
+
+.contact b {
+  display: block;
+  font-size: 32px;
+  line-height: 22px;
+  font-family: "Oswald Regular", Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.btn-send {
+  font: inherit;
+  text-align: center;
+  color: #383a3c;
+  vertical-align: middle;
+  text-transform: capitalize;
+  background-color: #fcfaf7;
+  border: none;
+}
+
+.btn-send:hover,
+.btn-send:active,
+.btn-send:focus {
+  background-color: #dbd6ce;
+}
+
+.form-field-text {
+  font-size: 32px;
+  line-height: 22px;
+  color: #a9a9a9;
+}
+
+.footer-social {
+  display: block;
+  font-size: 48px;
+  line-height: 22px;
+  text-align: center;
+  font-family: "Bazar Regular", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
