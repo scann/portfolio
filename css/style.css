@@ -308,10 +308,19 @@ a:focus {
   background-color: #dbd6ce;
 }
 
-.form-field-text {
+.form-field-item input,
+.form-field-item textarea {
   font-size: 32px;
   line-height: 22px;
   color: #a9a9a9;
+  background-color: #ffffff;
+  border: 2px solid #cccccc;
+  border-radius: 3px;
+}
+
+.form-field-item input:focus,
+.form-field-item textarea:focus {
+  border-color: #4ce0e0;
 }
 
 .footer-social {
