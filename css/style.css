@@ -76,7 +76,8 @@ a:focus {
   text-align: center;
   color: #393a3a;
   text-transform: uppercase;
-}
+  text-shadow: 3px 3px 1px #fcfaf7, 8px 7px 3px #484a4d;
+ }
 
 .main-navigation {
   font-family: "Bazar Regular", Arial, sans-serif;
@@ -93,6 +94,7 @@ a:focus {
 .main-navigation a {
   color: #f9ebd9;
   text-transform: uppercase;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .main-text {
@@ -100,6 +102,11 @@ a:focus {
   font-size: 44px;
   color: #4b4e4c;
   text-transform: uppercase;
+  text-shadow: 0px 2px 0px rgba(255, 255, 255, 0.8);
+  background-image: url(../img/main-header.png);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .slider {
@@ -141,6 +148,9 @@ a:focus {
   text-decoration: underline;
 }
 
+.about-me-features-item img {
+  background-color: #d45244;
+}
 .about-me-features-name,
 .about-me-features-description {
   text-transform: uppercase;
@@ -187,11 +197,20 @@ a:focus {
 }
 
 .filter-option label {
+  display: block;
   font-family: "RobotoSlab Bold", Arial, sans-serif;
   font-size: 24px;
+  background-color: #fbfaf6;
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
 }
 .gallery {
   list-style: none;
+}
+
+.gallery-item {
+  background-color: #fbfaf6;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
 }
 
 .gallery-item a {
@@ -220,6 +239,12 @@ a:focus {
   background-color: #dbd8d6;
 }
 
+.blog-post img {
+  border: 8px solid #fbfaf6;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
 .blog-description {
   font-family: "Oswald Regular", Arial, sans-serif;
   font-size: 32px;
@@ -239,8 +264,8 @@ a:focus {
   color: #383a3c;
 }
 
-.blog-post-title a:hover,
-.blog-post-title a:focus {
+.blog-post a:hover,
+.blog-post a:focus {
   text-decoration: underline;
 }
 
@@ -249,6 +274,11 @@ a:focus {
   font-size: 20px;
   line-height: 22px;
   text-transform: uppercase;
+}
+
+.blog-post-response {
+  display: block;
+  text-align: right;
 }
 
 .blog-post-content,
@@ -280,6 +310,7 @@ a:focus {
 
 .contact-title {
   color: #f6edd8;
+  text-shadow: 3px 3px 1px #484a4d, 6px 5px 1px #d4cebf;
 }
 
 .contact b {
@@ -300,6 +331,7 @@ a:focus {
   text-transform: capitalize;
   background-color: #fcfaf7;
   border: none;
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 .btn-send:hover,
