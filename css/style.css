@@ -38,6 +38,14 @@
         url('../fonts/Oswald-Bold.woff2') format('woff2');
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
