@@ -1,44 +1,46 @@
 @font-face {
-  font-family: 'RobotoSlab Bold';
+  font-family: "RobotoSlab Bold";
   font-style: normal;
   font-weight: 400;
-  src: local('RobotoSlab Bold'), local('RobotoSlab-Bold'),
-       url('../fonts/RobotoSlab-Bold.woff2') format('woff2');
+  src: local("RobotoSlab Bold"), local("RobotoSlab-Bold"),
+    url("../fonts/RobotoSlab-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'RobotoSlab Regular';
+  font-family: "RobotoSlab Regular";
   font-style: normal;
   font-weight: 400;
-  src: local('RobotoSlab Regular'), local('RobotoSlab-Regular'),
-        url('../fonts/RobotoSlab-Regular.woff2') format('woff2');
+  src: local("RobotoSlab Regular"), local("RobotoSlab-Regular"),
+    url("../fonts/RobotoSlab-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Bazar Regular';
+  font-family: "Bazar Regular";
   font-style: normal;
   font-weight: 400;
-  src: local('Bazar Regular'), local('Bazar-Regular'),
-        url('../fonts/Bazar.woff2') format('woff2');
+  src: local("Bazar Regular"), local("Bazar-Regular"),
+    url("../fonts/Bazar.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Oswald Regular';
+  font-family: "Oswald Regular";
   font-style: normal;
   font-weight: 400;
-  src: local('Oswald Regular'), local('Oswald-Regular'),
-        url('../fonts/Oswald-Regular.woff2') format('woff2');
+  src: local("Oswald Regular"), local("Oswald-Regular"),
+    url("../fonts/Oswald-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Oswald Bold';
+  font-family: "Oswald Bold";
   font-style: normal;
   font-weight: 400;
-  src: local('Oswald Bold'), local('Oswald-Bold'),
-        url('../fonts/Oswald-Bold.woff2') format('woff2');
+  src: local("Oswald Bold"), local("Oswald-Bold"),
+    url("../fonts/Oswald-Bold.woff2") format("woff2");
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 html,
@@ -89,15 +91,18 @@ a:visited {
   color: #393a3a;
   text-transform: uppercase;
   text-shadow: 3px 3px 1px #fcfaf7, 8px 7px 3px #484a4d;
- }
+}
 
 .main-navigation {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
   font-family: "Bazar Regular", Arial, sans-serif;
   font-size: 54px;
   color: #f9ebd9;
+  outline: 3px dashed rgba(255, 255, 255, 0.75);
+  border-bottom: 2px dashed #777879;
   background-color: #76b9b9;
 }
 
@@ -112,10 +117,30 @@ a:visited {
   margin: 0 auto;
 }
 
+.header-wrapper {
+  position: relative;
+  background-color: #76b9b9;
+}
+
+.main-header:after {
+  content: " ";
+  width: 100%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  top: 290px;
+  left: 0;
+  z-index: 0;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
 .main-header-logo {
-  order:2;
+  position: absolute;
+  padding-top: 15px;
+  order: 2;
   width: 304px;
   height: 303px;
+  z-index: 1;
 }
 
 .main-navigation-menu {
@@ -159,10 +184,11 @@ a:visited {
   text-decoration: none;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
-.main-header-logo {
-  position: absolute;
 
+.main-logo {
+  padding-top: 55px;
 }
+
 .main-text {
   font-family: "Bazar Regular", Arial, sans-serif;
   font-size: 44px;
@@ -178,6 +204,8 @@ a:visited {
 .slider {
   line-height: 22px;
   background-color: #76b9b9;
+  outline: 3px dashed rgba(255, 255, 255, 0.75);
+  border-top: 2px dashed #777879;
   text-align: center;
 }
 
@@ -388,7 +416,6 @@ a:visited {
   text-align: center;
 }
 
-
 .btn-send {
   font: inherit;
   text-align: center;
@@ -435,4 +462,3 @@ a:visited {
   padding: 0;
   list-style: none;
 }
-
