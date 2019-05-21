@@ -3,37 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <title>Developer portfolio</title>
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
-        <nav class="main-navigation">
-          <a class="main-header-logo">
-            <img
-              src="img/header-logo.png"
-              width="304"
-              height="303"
-              alt="Portfolio site logo"
-            />
-          </a>
-          <ul>
-            <li>
-              <a href="#">About me</a>
-            </li>
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">My blog</a>
-            </li>
-            <li>
-              <a href="#">Contact me</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img
+            src="img/header-logo.png"
+            width="304"
+            height="303"
+            alt="Portfolio site logo"
+          />
+        </a>
+        <div class="main-navigation-wrapper">
+          <div class="container">
+            <ul class="main-navigation-menu">
+              <li>
+                <a href="#">About me</a>
+              </li>
+              <li>
+                <a href="#">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">My blog</a>
+              </li>
+              <li>
+                <a href="#">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main class="container">
       <section class="slider">
@@ -49,116 +51,236 @@
         </div>
         <h2 class="visually-hidden">Portfolio examples</h2>
         <p class="slider-caption">“Hello, I am John Doe</p>
-        <p class="slider-caption slider-slogan">Welcome to retro, my wonderful theme!”</p>
+        <p class="slider-caption slider-slogan">
+          Welcome to retro, my wonderful theme!”
+        </p>
       </section>
       <article class="about-me">
         <h2 class="main-title">About me</h2>
         <p class="about-me-text">I am a graphic designer from Baltimore</p>
         <div class="about-me-columns">
-            <ul class="about-me-features">
-                <li class="about-me-features-item">
-                    <img src="img/movies-theme.svg" width="170" height="133" alt="Movies"/>
-                    <h3 class="about-me-features-name"><a href="#">Movies</a></h3>
-                  <p class="about-me-features-description">what I watch</p>
-                  <p class="about-me-features-details">
-                    Clutter is honest! I do believe that has to the users
-                    selfexpression. Care. Things which is a protector operating system
-                    such formats are deep and profound and meaningful. It's the
-                    traditions of data. Good design should be different levels.
-                    There's no rational alternative. That's come to complexity.
-                  </p>
-                </li>
-                <li class="about-me-features-item">
-                  <img src="img/music-theme.svg" width="170" height="170" alt="Music">
-                  <h3 class="about-me-features-name"><a href="#">Music</a></h3>
-                  <p class="about-me-features-description">what I listen</p>
-                  <p class="about-me-features-details">
-                    Good design. The content, you'll love powerpoint should be
-                    different. It's about design is that part? Good design is making
-                    something looks. And aesthetic. And colour defines your interface.
-                    That cannot be overtly different. That has to chance. And
-                    restrained, low resolution, but you get rid of materials.
-                  </p>
-                </li>
-                <li class="about-me-features-item">
-                  <img src="img/clothes-theme.svg" width="170" height="149" alt="Clothes">
-                  <h3 class="about-me-features-name"><a href="#">Clothes</a></h3>
-                  <p class="about-me-features-description">what I wear</p>
-                  <p class="about-me-features-details">
-                    Very honest approach and product. The other product that changes
-                    function like the absense of function. And frustrating that
-                    products that it's the fuctional imperative, we kept going and
-                    frustrating that we are about bringing order to be better and less
-                    complicated to understand.
-                  </p>
-                </li>
-                <li class="about-me-features-item">
-                  <img src="img/food-theme.svg" width="170" height="170" alt="Food">
-                  <h3 class="about-me-features-name"><a href="#">Food</a></h3>
-                  <p class="about-me-features-description">what I eat</p>
-                  <p class="about-me-features-details">
-                    Simplicity. Its context. From so many different levels. There's
-                    real simplicity is. Designing and place of the objects we're
-                    surrounded by seem trivial. There's no rational alternative. I
-                    think that's a very complicated problems without letting people
-                    have a very easy to mean so much that acknowledges.
-                  </p>
-                </li>
-              </ul>
+          <ul class="about-me-features">
+            <li class="about-me-features-item">
+              <img
+                src="img/movies-theme.svg"
+                width="170"
+                height="133"
+                alt="Movies"
+              />
+              <h3 class="about-me-features-name"><a href="#">Movies</a></h3>
+              <p class="about-me-features-description">what I watch</p>
+              <p class="about-me-features-details">
+                Clutter is honest! I do believe that has to the users
+                selfexpression. Care. Things which is a protector operating
+                system such formats are deep and profound and meaningful. It's
+                the traditions of data. Good design should be different levels.
+                There's no rational alternative. That's come to complexity.
+              </p>
+            </li>
+            <li class="about-me-features-item">
+              <img
+                src="img/music-theme.svg"
+                width="170"
+                height="170"
+                alt="Music"
+              />
+              <h3 class="about-me-features-name"><a href="#">Music</a></h3>
+              <p class="about-me-features-description">what I listen</p>
+              <p class="about-me-features-details">
+                Good design. The content, you'll love powerpoint should be
+                different. It's about design is that part? Good design is making
+                something looks. And aesthetic. And colour defines your
+                interface. That cannot be overtly different. That has to chance.
+                And restrained, low resolution, but you get rid of materials.
+              </p>
+            </li>
+            <li class="about-me-features-item">
+              <img
+                src="img/clothes-theme.svg"
+                width="170"
+                height="149"
+                alt="Clothes"
+              />
+              <h3 class="about-me-features-name"><a href="#">Clothes</a></h3>
+              <p class="about-me-features-description">what I wear</p>
+              <p class="about-me-features-details">
+                Very honest approach and product. The other product that changes
+                function like the absense of function. And frustrating that
+                products that it's the fuctional imperative, we kept going and
+                frustrating that we are about bringing order to be better and
+                less complicated to understand.
+              </p>
+            </li>
+            <li class="about-me-features-item">
+              <img
+                src="img/food-theme.svg"
+                width="170"
+                height="170"
+                alt="Food"
+              />
+              <h3 class="about-me-features-name"><a href="#">Food</a></h3>
+              <p class="about-me-features-description">what I eat</p>
+              <p class="about-me-features-details">
+                Simplicity. Its context. From so many different levels. There's
+                real simplicity is. Designing and place of the objects we're
+                surrounded by seem trivial. There's no rational alternative. I
+                think that's a very complicated problems without letting people
+                have a very easy to mean so much that acknowledges.
+              </p>
+            </li>
+          </ul>
         </div>
       </article>
       <article class="portfolio">
         <h2 class="main-title">Portfolio</h2>
-        <p class="portfolio-description">Simplicity is the ultimate sophistication</p>
+        <p class="portfolio-description">
+          Simplicity is the ultimate sophistication
+        </p>
         <section class="filter">
           <h2 class="visually-hidden">Gallery filter</h2>
           <form method="get" action="#">
-              <div class="filter-wrapper">
-                  <legend class="filter-header">Filter by</legend>
-                  <ul>
-                    <li class="filter-option"><input id="filter-design" class="visually-hidden" type="radio" name="filter"><label for="filter-design">design</label></li>
-                    <li class="filter-option"><input id="filter-logo" class="visually-hidden" type="radio" name="filter"><label for="filter-logo">logo</label></li>
-                    <li class="filter-option"><input id="filter-photo" class="visually-hidden" type="radio" name="filter"><label for="filter-photo">photography</label></li>
-                    <li class="filter-option"><input id="filter-poster" class="visually-hidden" type="radio" name="filter"><label for="filter-poster">poster</label></li>
-                    <li class="filter-option"><input id="filter-resourse" class="visually-hidden" type="radio" name="filter"><label for="filter-resourse">resources</label></li>
-                    <li class="filter-option"><input id="filter-retro" class="visually-hidden" type="radio" name="filter"><label for="filter-retro">retro</label></li>
-                    <li class="filter-option"><input id="filter-tshirt" class="visually-hidden" type="radio" name="filter"><label for="filter-tshirt">t-shirts</label></li>
-                    <li class="filter-option"><input id="filter-video" class="visually-hidden" type="radio" name="filter"><label for="filter-video">video</label></li>
-                  </ul>
-                </div>
+            <div class="filter-wrapper">
+              <legend class="filter-header">Filter by</legend>
+              <ul>
+                <li class="filter-option">
+                  <input
+                    id="filter-design"
+                    class="visually-hidden"
+                    type="radio"
+                    name="filter"
+                  /><label for="filter-design">design</label>
+                </li>
+                <li class="filter-option">
+                  <input
+                    id="filter-logo"
+                    class="visually-hidden"
+                    type="radio"
+                    name="filter"
+                  /><label for="filter-logo">logo</label>
+                </li>
+                <li class="filter-option">
+                  <input
+                    id="filter-photo"
+                    class="visually-hidden"
+                    type="radio"
+                    name="filter"
+                  /><label for="filter-photo">photography</label>
+                </li>
+                <li class="filter-option">
+                  <input
+                    id="filter-poster"
+                    class="visually-hidden"
+                    type="radio"
+                    name="filter"
+                  /><label for="filter-poster">poster</label>
+                </li>
+                <li class="filter-option">
+                  <input
+                    id="filter-resourse"
+                    class="visually-hidden"
+                    type="radio"
+                    name="filter"
+                  /><label for="filter-resourse">resources</label>
+                </li>
+                <li class="filter-option">
+                  <input
+                    id="filter-retro"
+                    class="visually-hidden"
+                    type="radio"
+                    name="filter"
+                  /><label for="filter-retro">retro</label>
+                </li>
+                <li class="filter-option">
+                  <input
+                    id="filter-tshirt"
+                    class="visually-hidden"
+                    type="radio"
+                    name="filter"
+                  /><label for="filter-tshirt">t-shirts</label>
+                </li>
+                <li class="filter-option">
+                  <input
+                    id="filter-video"
+                    class="visually-hidden"
+                    type="radio"
+                    name="filter"
+                  /><label for="filter-video">video</label>
+                </li>
+              </ul>
+            </div>
           </form>
         </section>
         <ul class="gallery">
           <li class="gallery-item">
-            <img src="http://placekitten.com/424/318" width="424" height="218" alt="gallery pictures">
+            <img
+              src="http://placekitten.com/424/318"
+              width="424"
+              height="218"
+              alt="gallery pictures"
+            />
             <a href="#">Galleries are funny</a>
           </li>
           <li class="gallery-item">
-            <img src="http://placekitten.com/424/318" width="424" height="218" alt="vimeo">
+            <img
+              src="http://placekitten.com/424/318"
+              width="424"
+              height="218"
+              alt="vimeo"
+            />
             <a href="#">A vimeo reel</a>
           </li>
           <li class="gallery-item">
-            <img src="http://placekitten.com/424/318" width="424" height="218" alt="cameras">
+            <img
+              src="http://placekitten.com/424/318"
+              width="424"
+              height="218"
+              alt="cameras"
+            />
             <a href="#">Love for old cameras</a>
           </li>
           <li class="gallery-item">
-            <img src="http://placekitten.com/424/318" width="424" height="218" alt="project page">
+            <img
+              src="http://placekitten.com/424/318"
+              width="424"
+              height="218"
+              alt="project page"
+            />
             <a href="#">Detailed project page</a>
           </li>
           <li class="gallery-item">
-            <img src="http://placekitten.com/424/318" width="424" height="318" alt="youtube">
+            <img
+              src="http://placekitten.com/424/318"
+              width="424"
+              height="318"
+              alt="youtube"
+            />
             <a href="#">Youtube video</a>
           </li>
           <li class="gallery-item">
-            <img src="http://placekitten.com/424/318" width="424" height="318" alt="external links">
+            <img
+              src="http://placekitten.com/424/318"
+              width="424"
+              height="318"
+              alt="external links"
+            />
             <a href="#">Another external link</a>
-            </li>
+          </li>
           <li class="gallery-item">
-            <img src="http://placekitten.com/424/318" width="424" height="318" alt="lightbox images">
+            <img
+              src="http://placekitten.com/424/318"
+              width="424"
+              height="318"
+              alt="lightbox images"
+            />
             <a href="#">A lightbox image</a>
           </li>
           <li class="gallery-item">
-            <img src="http://placekitten.com/424/318" width="424" height="318" alt="sounds">
+            <img
+              src="http://placekitten.com/424/318"
+              width="424"
+              height="318"
+              alt="sounds"
+            />
             <a href="#">The dark tempest</a>
           </li>
           <a href="#" class="show-all-link">Browse all</a>
@@ -168,9 +290,16 @@
         <h2 class="main-title">My blog</h2>
         <p class="blog-description">News from my house</p>
         <div class="blog-post">
-          <img src="http://placekitten.com/570/428" width="570" height="428" alt="Blog picture 1" />
+          <img
+            src="http://placekitten.com/570/428"
+            width="570"
+            height="428"
+            alt="Blog picture 1"
+          />
           <h3 class="blog-post-title"><a href="#">The Magic Wheel</a></h3>
-          <time datetime="2014-07-28" class="blog-post-details">July 18, 2014</time>
+          <time datetime="2014-07-28" class="blog-post-details"
+            >July 18, 2014</time
+          >
           <span>//</span>
           <a class="blog-post-details">Admin</a>
           <span>//</span>
@@ -186,9 +315,16 @@
           </p>
         </div>
         <div class="blog-post">
-          <img src="http://placekitten.com/570/428" width="570" height="428" alt="Blog picture 2" />
+          <img
+            src="http://placekitten.com/570/428"
+            width="570"
+            height="428"
+            alt="Blog picture 2"
+          />
           <h3 class="blog-post-title"><a href="">The lonely road</a></h3>
-          <time datetime="2014-07-28" class="blog-post-details">July 18, 2014</time>
+          <time datetime="2014-07-28" class="blog-post-details"
+            >July 18, 2014</time
+          >
           <span>//</span>
           <a class="blog-post-details">Admin</a>
           <span>//</span>
@@ -203,9 +339,16 @@
           </p>
         </div>
         <div class="blog-post">
-          <img src="http://placekitten.com/570/428" width="570" height="428" alt="Blog picture 3" />
+          <img
+            src="http://placekitten.com/570/428"
+            width="570"
+            height="428"
+            alt="Blog picture 3"
+          />
           <h3 class="blog-post-title"><a href="#">I love gasoline smell</a></h3>
-          <time datetime="2014-07-28" class="blog-post-details">July 18, 2014</time>
+          <time datetime="2014-07-28" class="blog-post-details"
+            >July 18, 2014</time
+          >
           <span>//</span>
           <a class="blog-post-details">Admin</a>
           <span>//</span>
@@ -227,21 +370,52 @@
         <form name="form-contact" method="post" action="#">
           <p class="form-field-item">
             <label class="visually-hidden" for="form-field-name">Name</label>
-            <input id="form-field-name-id" type="text" name="form-field-name" placeholder="Name" required>
+            <input
+              id="form-field-name-id"
+              type="text"
+              name="form-field-name"
+              placeholder="Name"
+              required
+            />
           </p>
           <p class="form-field-item">
-              <label class="visually-hidden" for="form-field-email">Email address</label>
-              <input id="form-field-email-id" type="email" name="form-field-email" placeholder="Email address" required>
+            <label class="visually-hidden" for="form-field-email"
+              >Email address</label
+            >
+            <input
+              id="form-field-email-id"
+              type="email"
+              name="form-field-email"
+              placeholder="Email address"
+              required
+            />
           </p>
           <p class="form-field-item">
-              <label class="visually-hidden" for="form-field-subject">Subject</label>
-              <input id="form-field-subject-id" type="text" name="form-field-subject" placeholder="Subject" required>
+            <label class="visually-hidden" for="form-field-subject"
+              >Subject</label
+            >
+            <input
+              id="form-field-subject-id"
+              type="text"
+              name="form-field-subject"
+              placeholder="Subject"
+              required
+            />
           </p>
           <p class="form-field-item">
-              <label class="visually-hidden" for="form-field-message">Message</label>
-              <textarea id="form-field-message-id" name="form-field-message" placeholder="Your message" required></textarea>
+            <label class="visually-hidden" for="form-field-message"
+              >Message</label
+            >
+            <textarea
+              id="form-field-message-id"
+              name="form-field-message"
+              placeholder="Your message"
+              required
+            ></textarea>
           </p>
-          <button type="submit" name="submit-message" class="btn-send">Send message</button>
+          <button type="submit" name="submit-message" class="btn-send">
+            Send message
+          </button>
         </form>
       </section>
     </main>
