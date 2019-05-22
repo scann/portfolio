@@ -86,7 +86,7 @@ a:visited {
 .main-title {
   font-family: "Bazar Regular", Arial, sans-serif;
   font-size: 180px;
-  line-height: 22px;
+  line-height: 195px;
   text-align: center;
   color: #393a3a;
   text-transform: uppercase;
@@ -260,13 +260,20 @@ a:visited {
   font-size: 53px;
 }
 
-.about-me {
+.article-wrapper {
   margin-top: 20px;
   outline: 3px dashed rgba(255, 255, 255, 0.75);
   border-top: 2px dashed #777879;
 }
 
+.about-me-heading {
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-top: 80px;
+}
+
 .about-me-text {
+  margin-bottom: 80px;
   font-family: "Oswald Regular", Arial, sans-serif;
   font-size: 32px;
   line-height: 22px;
@@ -276,33 +283,53 @@ a:visited {
 }
 
 .about-me-features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   list-style: none;
 }
 
-.about-me-features a {
-  color: #383a3c;
+.about-me-features-item {
+  width: 414px;
+  padding-right: 15px;
 }
 
-.about-me-features a:hover,
-.about-me-features a:focus {
-  text-decoration: underline;
+.about-me-features-name a {
+  padding-bottom: 4px;
+  color: #383a3c;
+  text-decoration: none;
+}
+
+.about-me-features-name a:hover {
+  border-bottom: 4px solid #383a3c;
+  text-decoration: none;
 }
 
 .about-me-features-item img {
+  display: block;
+  margin: 0 auto 37px;
   background-color: #d45244;
+  box-shadow: 0px 0px 0px 2px #d45244;
+  border-radius: 50%;
 }
+
 .about-me-features-name,
 .about-me-features-description {
+  text-align: center;
   text-transform: uppercase;
-  line-height: 22px;
+  line-height: 54px;
 }
 
 .about-me-features-name {
+  margin-top: 0;
+  margin-bottom: 37px;
   font-family: "Bazar Regular", Arial, sans-serif;
   font-size: 54px;
 }
 
 .about-me-features-description {
+  margin-top: 0;
+  margin-bottom: 75px;
   font-family: "RobotoSlab Bold", Arial, sans-serif;
   font-size: 28px;
 }
