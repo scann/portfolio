@@ -118,8 +118,9 @@ a:visited {
 }
 
 .header-wrapper {
-  position: relative;
+  padding-bottom: 20px;
   background-color: #76b9b9;
+  box-shadow: 0px 0px 0px 3px #b6b2a5;
 }
 
 .main-header:after {
@@ -189,7 +190,16 @@ a:visited {
   padding-top: 55px;
 }
 
+.main-logo img{
+  margin-bottom: 70px;
+}
+
 .main-text {
+  margin-top: 0;
+  margin-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  line-height: 22px;
   font-family: "Bazar Regular", Arial, sans-serif;
   font-size: 44px;
   color: #4b4e4c;
@@ -206,10 +216,39 @@ a:visited {
   background-color: #76b9b9;
   outline: 3px dashed rgba(255, 255, 255, 0.75);
   border-top: 2px dashed #777879;
+  border-bottom: 2px dashed #777879;
   text-align: center;
 }
 
+.slider-photos {
+  position: relative;
+  margin-bottom: 85px;
+}
+
+.slider-photos img {
+  border-top: 20px solid #fbfaf6;
+  border-left: 20px solid #fbfaf6;
+  border-right: 20px solid #fbfaf6;
+  border-bottom: 96px solid #fbfaf6;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+.slider-text {
+  position: absolute;
+  bottom: -35px;
+  left: 940px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #383a3c;
+  line-height: 22px;
+  font-size: 44px;
+  font-family: "Bazar Regular", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
 .slider-caption {
+  margin-top: 0;
   font-family: "Bazar Regular", Arial, sans-serif;
   font-size: 64px;
   color: #f7ebd8;
@@ -217,7 +256,14 @@ a:visited {
 }
 
 .slider-slogan {
+  padding-bottom: 90px;
   font-size: 53px;
+}
+
+.about-me {
+  margin-top: 20px;
+  outline: 3px dashed rgba(255, 255, 255, 0.75);
+  border-top: 2px dashed #777879;
 }
 
 .about-me-text {
