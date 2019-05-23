@@ -61,7 +61,7 @@
       </section>
     </div>
     <main class="main-content">
-      <div class="article-wrapper">
+      <div class="article-wrapper-about">
         <article class="about-me">
           <h2 class="main-title about-me-heading">About me</h2>
           <p class="about-me-text">I am a graphic designer from Baltimore</p>
@@ -137,161 +137,167 @@
           </ul>
         </article>
       </div>
-      <article class="portfolio">
-        <h2 class="main-title">Portfolio</h2>
-        <p class="portfolio-description">
-          Simplicity is the ultimate sophistication
-        </p>
-        <section class="filter">
-          <h2 class="visually-hidden">Gallery filter</h2>
-          <form method="get" action="#">
-            <div class="filter-wrapper">
-              <legend class="filter-header">Filter by</legend>
-              <ul>
-                <li class="filter-option">
-                  <input
-                    id="filter-design"
-                    class="visually-hidden"
-                    type="radio"
-                    name="filter"
-                  /><label for="filter-design">design</label>
-                </li>
-                <li class="filter-option">
-                  <input
-                    id="filter-logo"
-                    class="visually-hidden"
-                    type="radio"
-                    name="filter"
-                  /><label for="filter-logo">logo</label>
-                </li>
-                <li class="filter-option">
-                  <input
-                    id="filter-photo"
-                    class="visually-hidden"
-                    type="radio"
-                    name="filter"
-                  /><label for="filter-photo">photography</label>
-                </li>
-                <li class="filter-option">
-                  <input
-                    id="filter-poster"
-                    class="visually-hidden"
-                    type="radio"
-                    name="filter"
-                  /><label for="filter-poster">poster</label>
-                </li>
-                <li class="filter-option">
-                  <input
-                    id="filter-resourse"
-                    class="visually-hidden"
-                    type="radio"
-                    name="filter"
-                  /><label for="filter-resourse">resources</label>
-                </li>
-                <li class="filter-option">
-                  <input
-                    id="filter-retro"
-                    class="visually-hidden"
-                    type="radio"
-                    name="filter"
-                  /><label for="filter-retro">retro</label>
-                </li>
-                <li class="filter-option">
-                  <input
-                    id="filter-tshirt"
-                    class="visually-hidden"
-                    type="radio"
-                    name="filter"
-                  /><label for="filter-tshirt">t-shirts</label>
-                </li>
-                <li class="filter-option">
-                  <input
-                    id="filter-video"
-                    class="visually-hidden"
-                    type="radio"
-                    name="filter"
-                  /><label for="filter-video">video</label>
-                </li>
+      <div class="article-wrapper-portfolio">
+          <article class="portfolio">
+              <h2 class="main-title">Portfolio</h2>
+              <p class="portfolio-description">
+                Simplicity is the ultimate sophistication
+              </p>
+              <section class="filter container">
+                <h2 class="visually-hidden">Gallery filter</h2>
+                <form method="get" action="#">
+                  <div class="filter-wrapper">
+                    <legend class="filter-header">Filter by</legend>
+                    <ul class="filters">
+                      <li class="filter-option">
+                        <input
+                          id="filter-design"
+                          class="visually-hidden"
+                          type="radio"
+                          name="filter"
+                        /><label for="filter-design">design</label>
+                      </li>
+                      <li class="filter-option">
+                        <input
+                          id="filter-logo"
+                          class="visually-hidden"
+                          type="radio"
+                          name="filter"
+                        /><label for="filter-logo">logo</label>
+                      </li>
+                      <li class="filter-option">
+                        <input
+                          id="filter-photo"
+                          class="visually-hidden"
+                          type="radio"
+                          name="filter"
+                        /><label for="filter-photo">photography</label>
+                      </li>
+                      <li class="filter-option">
+                        <input
+                          id="filter-poster"
+                          class="visually-hidden"
+                          type="radio"
+                          name="filter"
+                        /><label for="filter-poster">poster</label>
+                      </li>
+                      <li class="filter-option">
+                        <input
+                          id="filter-resourse"
+                          class="visually-hidden"
+                          type="radio"
+                          name="filter"
+                        /><label for="filter-resourse">resources</label>
+                      </li>
+                      <li class="filter-option">
+                        <input
+                          id="filter-retro"
+                          class="visually-hidden"
+                          type="radio"
+                          name="filter"
+                        /><label for="filter-retro">retro</label>
+                      </li>
+                      <li class="filter-option">
+                        <input
+                          id="filter-tshirt"
+                          class="visually-hidden"
+                          type="radio"
+                          name="filter"
+                        /><label for="filter-tshirt">t-shirts</label>
+                      </li>
+                      <li class="filter-option">
+                        <input
+                          id="filter-video"
+                          class="visually-hidden"
+                          type="radio"
+                          name="filter"
+                        /><label for="filter-video">video</label>
+                      </li>
+                    </ul>
+                  </div>
+                </form>
+              </section>
+              <ul class="gallery">
+                <div class="row">
+                    <li class="gallery-item">
+                        <img
+                          src="http://placekitten.com/424/318"
+                          width="424"
+                          height="318"
+                          alt="gallery pictures"
+                        />
+                        <a href="#">Galleries are funny</a>
+                      </li>
+                      <li class="gallery-item">
+                        <img
+                          src="http://placekitten.com/424/318"
+                          width="424"
+                          height="318"
+                          alt="vimeo"
+                        />
+                        <a href="#">A vimeo reel</a>
+                      </li>
+                      <li class="gallery-item">
+                        <img
+                          src="http://placekitten.com/424/318"
+                          width="424"
+                          height="318"
+                          alt="cameras"
+                        />
+                        <a href="#">Love for old cameras</a>
+                      </li>
+                      <li class="gallery-item">
+                        <img
+                          src="http://placekitten.com/424/318"
+                          width="424"
+                          height="318"
+                          alt="project page"
+                        />
+                        <a href="#">Detailed project page</a>
+                      </li>
+                </div>
+                <div class="row">
+                    <li class="gallery-item">
+                        <img
+                          src="http://placekitten.com/424/318"
+                          width="424"
+                          height="318"
+                          alt="youtube"
+                        />
+                        <a href="#">Youtube video</a>
+                      </li>
+                      <li class="gallery-item">
+                        <img
+                          src="http://placekitten.com/424/318"
+                          width="424"
+                          height="318"
+                          alt="external links"
+                        />
+                        <a href="#">Another external link</a>
+                      </li>
+                      <li class="gallery-item">
+                        <img
+                          src="http://placekitten.com/424/318"
+                          width="424"
+                          height="318"
+                          alt="lightbox images"
+                        />
+                        <a href="#">A lightbox image</a>
+                      </li>
+                      <li class="gallery-item">
+                        <img
+                          src="http://placekitten.com/424/318"
+                          width="424"
+                          height="318"
+                          alt="sounds"
+                        />
+                        <a href="#">The dark tempest</a>
+                      </li>
+                </div>
+                <a href="#" class="show-all-link">Browse all</a>
               </ul>
-            </div>
-          </form>
-        </section>
-        <ul class="gallery">
-          <li class="gallery-item">
-            <img
-              src="http://placekitten.com/424/318"
-              width="424"
-              height="218"
-              alt="gallery pictures"
-            />
-            <a href="#">Galleries are funny</a>
-          </li>
-          <li class="gallery-item">
-            <img
-              src="http://placekitten.com/424/318"
-              width="424"
-              height="218"
-              alt="vimeo"
-            />
-            <a href="#">A vimeo reel</a>
-          </li>
-          <li class="gallery-item">
-            <img
-              src="http://placekitten.com/424/318"
-              width="424"
-              height="218"
-              alt="cameras"
-            />
-            <a href="#">Love for old cameras</a>
-          </li>
-          <li class="gallery-item">
-            <img
-              src="http://placekitten.com/424/318"
-              width="424"
-              height="218"
-              alt="project page"
-            />
-            <a href="#">Detailed project page</a>
-          </li>
-          <li class="gallery-item">
-            <img
-              src="http://placekitten.com/424/318"
-              width="424"
-              height="318"
-              alt="youtube"
-            />
-            <a href="#">Youtube video</a>
-          </li>
-          <li class="gallery-item">
-            <img
-              src="http://placekitten.com/424/318"
-              width="424"
-              height="318"
-              alt="external links"
-            />
-            <a href="#">Another external link</a>
-          </li>
-          <li class="gallery-item">
-            <img
-              src="http://placekitten.com/424/318"
-              width="424"
-              height="318"
-              alt="lightbox images"
-            />
-            <a href="#">A lightbox image</a>
-          </li>
-          <li class="gallery-item">
-            <img
-              src="http://placekitten.com/424/318"
-              width="424"
-              height="318"
-              alt="sounds"
-            />
-            <a href="#">The dark tempest</a>
-          </li>
-          <a href="#" class="show-all-link">Browse all</a>
-        </ul>
-      </article>
+            </article>
+      </div>
       <article class="blog">
         <h2 class="main-title">My blog</h2>
         <p class="blog-description">News from my house</p>
