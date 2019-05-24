@@ -191,7 +191,7 @@ a:visited {
   padding-top: 55px;
 }
 
-.main-logo img{
+.main-logo img {
   margin-bottom: 70px;
 }
 
@@ -343,6 +343,8 @@ a:visited {
   margin: 0 auto;
   background: #e48b6a;
   box-shadow: 0px 0px 0px 2px #b77156;
+  outline: 3px dashed rgba(255, 255, 255, 0.75);
+  border-bottom: 2px dashed #777879;
 }
 
 .portfolio {
@@ -410,6 +412,20 @@ a:visited {
   margin-bottom: 35px;
 }
 
+.row:last-of-type {
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.row:last-of-type:after {
+  position: absolute;
+  content: "";
+  top: 548px;
+  width: 80px;
+  height: 5px;
+  background-color: #383a3c;
+}
+
 .gallery-item {
   background-color: #fbfaf6;
   text-align: center;
@@ -437,16 +453,18 @@ a:visited {
 
 .gallery-item a:before {
   position: absolute;
-  left: 42%;
-  top: -17%;
-  content: '';
-  width: 50px;
-  height: 50px;
-  background-image: url('../img/gallery-item-pic.svg');
+  left: 165px;
+  top: -25px;
+  content: "";
+  width: 90px;
+  height: 90px;
+  background-image: url(../img/gallery-item-pic.svg);
   background-repeat: no-repeat;
+  background-size: 47px 47px;
+  background-position: 9px 9px;
   background-color: #fbfaf6;
   border-radius: 50%;
-  border: 16px solid #fbfaf6;
+  border: 12px solid #fbfaf6;
 }
 
 .show-all-link {
@@ -458,9 +476,15 @@ a:visited {
   text-align: center;
   text-transform: uppercase;
 }
+
 .show-all-link:hover,
 .show-all-link:focus {
   text-decoration: underline;
+}
+
+.browse-all-link {
+  padding-top: 20px;
+  padding-bottom: 110px;
 }
 
 .blog {
