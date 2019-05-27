@@ -651,7 +651,7 @@ a:visited {
   margin-left: 480px;
   margin-bottom: 80px;
   padding: 25px 35px;
-  font: inherit;
+  font-family: "RobotoSlab Bold", Arial, sans-serif;
   line-height: 22px;
   color: #383a3c;
   font-size: 32px;
@@ -706,7 +706,29 @@ a:visited {
   text-transform: uppercase;
 }
 
+.footer-social b {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.footer-social b:after {
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 4px;
+  top: 60px;
+  background-color: #f6edd8;
+}
+
 .footer-social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
