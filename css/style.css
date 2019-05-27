@@ -340,7 +340,6 @@ a:visited {
 }
 
 .article-wrapper-portfolio {
-  margin: 0 auto;
   background: #e48b6a;
   box-shadow: 0px 0px 0px 2px #b77156;
   outline: 3px dashed rgba(255, 255, 255, 0.75);
@@ -369,7 +368,7 @@ a:visited {
 .filter-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 30px;
   line-height: 22px;
@@ -402,6 +401,7 @@ a:visited {
 }
 
 .gallery {
+  padding: 0;
   list-style: none;
 }
 
@@ -488,8 +488,7 @@ a:visited {
 }
 
 .article-wrapper-blog {
-  margin: 0 auto;
-  min-width: 1900px;
+  background-color: #dbd8d6;
   outline: 3px dashed rgba(255, 255, 255, 0.75);
   border-top: 2px dashed #777879;
   border-bottom: 2px dashed #777879;
