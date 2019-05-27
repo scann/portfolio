@@ -622,12 +622,16 @@ a:visited {
 }
 
 .contact-title {
+  margin: 0;
+  padding-top: 110px;
+  padding-bottom: 70px;
   color: #f6edd8;
   text-shadow: 3px 3px 1px #484a4d, 6px 5px 1px #d4cebf;
 }
 
-.contact b {
+.contact-text {
   display: block;
+  padding-bottom: 70px;
   font-size: 32px;
   line-height: 22px;
   font-family: "Oswald Regular", Arial, sans-serif;
@@ -635,14 +639,27 @@ a:visited {
   text-align: center;
 }
 
-.btn-send {
-  font: inherit;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 960px;
   text-align: center;
+}
+
+.btn-send {
+  width: 290px;
+  margin-left: 480px;
+  margin-bottom: 80px;
+  padding: 25px 35px;
+  font: inherit;
+  line-height: 22px;
   color: #383a3c;
+  font-size: 32px;
   vertical-align: middle;
   text-transform: capitalize;
   background-color: #fcfaf7;
   border: none;
+  border-radius: 6px;
   box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -652,18 +669,31 @@ a:visited {
   background-color: #dbd6ce;
 }
 
+.form-field-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .form-field-item input,
 .form-field-item textarea {
+  min-width: 960px;
+  padding-left: 22px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   font-size: 32px;
-  line-height: 22px;
   color: #a9a9a9;
   background-color: #ffffff;
   border: 2px solid #cccccc;
   border-radius: 3px;
 }
 
+.form-field-item textarea {
+  min-height: 326px;
+  resize: vertical;
+}
 .form-field-item input:focus,
 .form-field-item textarea:focus {
+  color: #000;
   border-color: #4ce0e0;
 }
 
