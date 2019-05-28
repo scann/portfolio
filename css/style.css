@@ -271,8 +271,43 @@ a:visited {
 
 .about-me-heading {
   margin-top: 0;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   padding-top: 80px;
+}
+
+.cross {
+  position: relative;
+  padding-bottom: 25px;
+  font-size: 50px;
+  line-height: 0;
+  text-align: center;
+}
+
+.cross:before {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: 835px;
+  width: 80px;
+  height: 4px;
+  background-color: #3b3b3b;
+}
+
+.cross:after {
+  position: absolute;
+  content: "";
+  top: 7px;
+  width: 80px;
+  height: 4px;
+  background-color: #3b3b3b;
+}
+
+.cross-dark {
+  color: #3b3b3b;
+}
+
+.cross-light {
+  color: #f6edd8;
 }
 
 .about-me-text {
