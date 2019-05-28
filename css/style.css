@@ -277,7 +277,7 @@ a:visited {
 
 .cross {
   position: relative;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
   font-size: 50px;
   line-height: 0;
   text-align: center;
@@ -311,6 +311,7 @@ a:visited {
 }
 
 .about-me-text {
+  margin-top: 0;
   margin-bottom: 80px;
   font-family: "Oswald Regular", Arial, sans-serif;
   font-size: 32px;
@@ -410,7 +411,7 @@ a:visited {
 
 .portfolio .main-title {
   padding-top: 100px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .portfolio-description {
@@ -448,14 +449,38 @@ a:visited {
 }
 
 .filter-option label {
+  position: relative;
   display: block;
-  margin-right: 20px;
+  margin-right: 35px;
   margin-left: 20px;
-  padding: 20px 30px 20px 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
   font-family: "RobotoSlab Bold", Arial, sans-serif;
   font-size: 24px;
   background-color: #fbfaf6;
   box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.filter-option label:before {
+  position: absolute;
+  content: "";
+  top: 27px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgb(149, 156, 163);
+}
+
+.filter-option label:after {
+  position: absolute;
+  content: "";
+  left: -64px;
+  bottom: -1px;
+  border: 32px solid transparent;
+  border-right: 32px solid #fbfaf6;
 }
 
 .gallery {
@@ -774,7 +799,7 @@ a:visited {
 
 .footer-social b:after {
   position: absolute;
-  content: '';
+  content: "";
   width: 80px;
   height: 4px;
   top: 60px;
