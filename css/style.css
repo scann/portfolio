@@ -385,6 +385,18 @@ a:visited {
   background-color: #383a3c;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
 .article-wrapper-portfolio {
   background: #e48b6a;
   box-shadow: 0px 0px 0px 2px #b77156;
