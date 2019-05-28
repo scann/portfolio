@@ -368,10 +368,21 @@ a:visited {
 }
 
 .about-me-features-description {
+  position: relative;
   margin-top: 0;
   margin-bottom: 75px;
   font-family: "RobotoSlab Bold", Arial, sans-serif;
   font-size: 28px;
+}
+
+.about-me-features-description:after {
+  position: absolute;
+  content: "";
+  top: 80px;
+  left: 150px;
+  width: 80px;
+  height: 5px;
+  background-color: #383a3c;
 }
 
 .article-wrapper-portfolio {
