@@ -481,6 +481,18 @@ a:visited {
   box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
+.filter-option input:hover+label,
+.filter-option input:active+label,
+.filter-option input:hover+.filter-option label:before,
+.filter-option input:active+.filter-option label:before {
+  background-color: #a9a9a9;
+}
+
+.filter-option input:hover+label:after,
+.filter-option input:active+.abel:after {
+  border-right-color:#a9a9a9;
+}
+
 .filter-option label:before {
   position: absolute;
   content: "";
@@ -489,7 +501,7 @@ a:visited {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: rgb(149, 156, 163);
+  background-color: #fbfaf6;
 }
 
 .filter-option label:after {
