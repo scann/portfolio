@@ -482,15 +482,17 @@ a:visited {
 }
 
 .filter-option input:hover+label,
-.filter-option input:active+label,
-.filter-option input:hover+.filter-option label:before,
-.filter-option input:active+.filter-option label:before {
+.filter-option input:active+label {
   background-color: #a9a9a9;
 }
 
 .filter-option input:hover+label:after,
-.filter-option input:active+.abel:after {
+.filter-option input:active+label:after {
   border-right-color:#a9a9a9;
+}
+.filter-option input:hover+label:before,
+.filter-option input:active+label:before {
+  background-color: #fbfaf6;
 }
 
 .filter-option label:before {
@@ -501,7 +503,7 @@ a:visited {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #fbfaf6;
+  background-color: #a9a9a9;
 }
 
 .filter-option label:after {
