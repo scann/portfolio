@@ -285,6 +285,10 @@ a:visited {
   padding-top: 80px;
 }
 
+.about-me-heading a {
+  padding-top: 100px;
+}
+
 .cross {
   position: relative;
   padding-bottom: 40px;
@@ -419,9 +423,13 @@ a:visited {
   background-color: #e48b6a;
 }
 
-.portfolio .main-title {
+.portfolio-heading {
   padding-top: 100px;
   margin-bottom: 30px;
+}
+
+.portfolio-heading a {
+  padding-top: 100px;
 }
 
 .portfolio-description {
@@ -599,6 +607,10 @@ a:visited {
   margin-bottom: 25px;
 }
 
+.blog-title a {
+  padding-top: 100px;
+}
+
 .blog-post {
   position: relative;
   display: flex;
@@ -726,6 +738,10 @@ a:visited {
   padding-bottom: 25px;
   color: #f6edd8;
   text-shadow: 3px 3px 1px #484a4d, 6px 5px 1px #d4cebf;
+}
+
+.contact-title a {
+  padding-top: 100px;
 }
 
 .contact .cross:before,
